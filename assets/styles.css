@@ -1,0 +1,101 @@
+.nav-link {
+    color: #000 !important;
+}
+
+.nav-link:hover {
+    color: #333 !important;
+    font-weight: 500;
+    text-decoration: underline;
+    transform: scale(1.1);
+    transition: 100ms;
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .show>.nav-link {
+    font-size: 1.5vw;
+    line-height: 1.2vw;
+    font-weight: 600;
+}
+
+.perfil-img {
+    border-radius: 100%;
+    width: 20vw;
+    height: 20vw;
+    object-fit: cover;
+    object-position: 30%;
+}
+
+.titulo {
+    text-decoration: underline;
+}
+
+.brw-1 {
+    border-right: solid 1px #fff;
+}
+
+.bullets .list-group-item::before {
+    content: '';
+    width: 12px;
+    height: 12px;
+    position: absolute;
+    left: -25px;
+    top: 12px;
+    background-color: #fff;
+    border-radius: 2px;
+}
+
+.seccion-activa {
+    background-color: #6610f2;
+    color: #000;
+    padding: .5em 1em;
+    border-radius: 8px;
+    transform: scale(1.1);
+    transition: 200ms;
+    z-index: 999;
+}
+
+.seccion-activa .bullets .list-group-item::before {
+    background-color: #000;
+}
+
+@media (max-width: 991.98px) {
+    .navbar-nav .nav-link.active, .navbar-nav .show>.nav-link {
+        font-size: larger;
+        transform: none;
+    }
+
+    .perfil-img {
+        width: 50vw;
+        height: 50vw;
+        margin-bottom: 1.5em;
+    }
+
+    #contacto {
+        margin-top: 3em;
+    }
+
+    .card-text, h1 {
+        text-align: center;
+    }
+
+    .brw-1 {
+        border-right: none;
+    }
+
+    #educacion > div, #experiencia > div {
+        flex-direction: column;
+        margin-bottom: 1em !important;
+    }
+
+    .bullets {
+        margin-bottom: 2em;
+    }
+
+    .seccion-activa {
+        transform: none;
+    }
+
+    #contacto.seccion-activa, #educacion.seccion-activa ,#habilidades.seccion-activa {
+        margin-left: -1em;
+        margin-right: -1em;
+    }
+}

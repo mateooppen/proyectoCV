@@ -1,0 +1,181 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CV</title>
+    <link href="./assets/styles.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  </head>
+  <body class="bg-dark">
+    <header class="mb-5">
+        <nav class="navbar navbar-expand-lg bg-secondary bg-gradient">
+            <div class="container-fluid">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-center text-white" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link" onclick="navigate(this, 'contacto')" href="#contacto">Contacto</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" onclick="navigate(this, 'perfil')" href="#perfil">Perfil</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" onclick="navigate(this, 'experiencia')" href="#experiencia">Experiencia</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" onclick="navigate(this, 'educacion')" href="#educacion">Educación</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" onclick="navigate(this, 'habilidades')" href="#habilidades">Habilidades</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
+
+    <div class="container mb-5">
+        <div class="row">
+            <div class="col-md-6 col-sm-12 d-flex justify-content-center">
+                <img class="perfil-img" src="./assets/imgs/f608x342-1555_31278_0.jpg" class="card-img-top" alt="...">
+            </div>
+            <div class="col-md-6 col-sm-12 text-white text-left">
+                <p class="card-text fs-1">Art Vandeley</p>
+                <p class="card-text fs-4">Arquitecto | Programador de videojuegos con experiencia en la realidad aumentada</p>
+
+                <div id="contacto">
+                    <h1 class="fs-3 titulo">Datos de contacto</h1>
+
+                    <ul class="list-group-flush px-2">
+                        <li class="list-group-item fs-5">Dirección: Calle Concepción Arena, Valencia, España</li>
+                        <li class="list-group-item fs-5">Correo electrónico: george-costanza@email.com</li>
+                        <li class="list-group-item fs-5">Teléfono: (404) 792-6668</li>
+                        <li class="list-group-item fs-5">Domicilio: 8051 Camden Ave</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container mt-5 text-white pb-5">
+        <div class="row">
+            <div class="col-md-12 col-sm-12 mb-5" id="perfil">
+                <h1 class="titulo fs-3">Perfil profesional</h1>
+
+                <p class="fs-4">Programador de videojuegos con 6 años de experiencia. He trabajado en empresas de España y Estados Unidos, entre ellas Electronic Arts. Participé en la creación de 17 videojuegos para distintos dispositivos. En 2 de los videojuegos que programé se usó la realidad virtual. Además, me especializo en motores 3D e Inteligencia Artificial.</p>
+            </div>
+
+            <div class="col-md-6 col-sm-12 d-flex flex-column justify-content-between pe-3 brw-1" id="experiencia">
+                <h1 class="titulo text-center fs-3 mb-4">Experiencia</h1>
+                <h1 class="fs-4 text-left mb-4">Programador de videojuegos</h1>
+
+                <div class="d-flex justify-content-between align-items-center">
+                    <h1 class="fs-5">Compañía de desarrollo de juegos Unity, Valencia, España</h1>
+                    <span class="badge bg-light text-dark rounded-pill">Enero 2021 - Actualidad</span>
+                </div>
+                <ul class="list-group-flush bullets">
+                    <li class="list-group-item fs-5">
+                        Lideré el equipo de programadores en 2 proyectos de desarrollo de juegos.
+                    </li>
+                    <li class="list-group-item fs-5">
+                        Programé 5 videojuegos multiplataforma y 2 juegos online.
+                    </li>
+                    <li class="list-group-item fs-5">
+                        Integré realidad virtual en un juego de terror.
+                    </li>
+                </ul>
+
+                <div class="d-flex justify-content-between align-items-center">
+                    <h1 class="fs-5">Electronics Arts, California, Estados Unidos</h1>
+                    <span class="badge bg-light text-dark rounded-pill">Junio de 2018 - Diciembre de 2020</span>
+                </div>
+                <ul class="list-group-flush bullets">
+                    <li class="list-group-item fs-5">
+                        Desarrollé los sistemas básicos de realidad virtual para un videojuego.
+                    </li>
+                    <li class="list-group-item fs-5">
+                        Programé los prototipos de 3 juegos para Xbox y PlayStation.
+                    </li>
+                    <li class="list-group-item fs-5">
+                        Integré animaciones en 3D a 2 juegos para dispositivos móviles.
+                    </li>
+                    <li class="list-group-item fs-5">
+                        Utilicé lenguajes de programación Java y C# en 4 juegos multiplataforma.
+                    </li>
+                    <li class="list-group-item fs-5">
+                        Corregí los errores que presentaba el prototipo del video Global Defender.
+                    </li>
+                  </ul>
+
+                  <div class="d-flex justify-content-between align-items-center">
+                    <h1 class="fs-5">TechAlfa, Texas, Estados Unidos</h1>
+                    <span class="badge bg-light text-dark rounded-pill">Marzo de 2017 - Mayo de 2018</span>
+                    </div>
+                    <ul class="list-group-flush bullets">
+                        <li class="list-group-item fs-5">
+                            Programé 4 aplicaciones empresariales mediante el lenguaje Python.
+                        </li>
+                        <li class="list-group-item fs-5">
+                            Desarrollé la aplicación de 2 empresas de entregas a domicilio.
+                        </li>
+                        <li class="list-group-item fs-5">
+                            Optimicé en un 60 % el funcionamiento de la app de una tienda de ropa.
+                        </li>
+                    </ul>
+            </div>
+
+            <div class="col-md-6 col-sm-12 ps-3">
+                <div id="educacion">
+                    <h1 class="titulo text-center fs-3 mb-4">Educación</h1>
+
+                    <h1 class="fs-4 text-left mb-2">Máster en Programación de Videojuegos</h1>
+                    <div class="d-flex justify-content-between align-items-center mb-5">
+                        <h1 class="fs-5">Centro Universitario de Tecnología y Arte Digital</h1>
+                        <span class="badge bg-light text-dark rounded-pill mb-3">Octubre de 2017 - Octubre de 2018</span>
+                    </div>
+
+                    <h1 class="fs-4 text-left mb-2">Grado en Ingeniería Informática</h1>
+                    <div class="d-flex justify-content-between align-items-center mb-5">
+                        <h1 class="fs-5">Universidad de Málaga</h1>
+                        <span class="badge bg-light text-dark rounded-pill mb-3">Septiembre de 2011 - Julio de 2015</span>
+                    </div>
+                </div>
+
+                <div class="mt-5" id="habilidades">
+                    <h1 class="titulo text-center fs-3">Habilidades profesionales</h1>
+                
+                    <ul class="list-group-flush bullets">
+                        <li class="list-group-item fs-5">
+                            Liderazgo.
+                        </li>
+                        <li class="list-group-item fs-5">
+                            Planeación de proyectos.
+                        </li>
+                        <li class="list-group-item fs-5">
+                            Conocimiento en diseño gráfico.
+                        </li>
+                        <li class="list-group-item fs-5">
+                            Uso experto de lenguajes de programación Python, Java y C#.
+                        </li>
+                        <li class="list-group-item fs-5">
+                            Conocimiento avanzado en videojuegos para PlayStation y Xbox.
+                        </li>
+                        <li class="list-group-item fs-5">
+                            Uso experto de realidad virtual e Inteligencia Artificial.
+                        </li>
+                        <li class="list-group-item fs-5">
+                            Trabajo en equipo.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="./index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  </body>
+</html>
